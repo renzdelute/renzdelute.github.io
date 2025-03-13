@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renz Delute - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="../482253317_1094033296071448_2508967659811823090_n-removebg-preview (1).png">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* Custom CSS */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            height: 56px; /* Adjust based on your navbar height */
+        }
+
+        .hero {
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: calc(100vh - 56px); /* Adjust based on your navbar height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Renz Delute</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-4 mb-3 fw-bold">Welcome to My Portfolio</h2>
+                    <h3 class="h4 mb-4 text-muted">Web Developer & Designer</h3>
+                    <img src="../482253317_1094033296071448_2508967659811823090_n.jpg" 
+                         class="img-fluid rounded-circle shadow-lg" 
+                         style="width: 200px; height: 200px; object-fit: cover;" 
+                         alt="Renz Delute Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-content bg-light p-4 rounded-3">
+                        <p class="lead mb-4">
+                            <strong class="d-block mb-2">Renz Delute</strong>  
+                            <em class="d-block mb-3 text-muted">System Developer | Music Producer</em>  
+                            I am a dedicated system developer specializing in building tailored solutions that ensure efficiency, scalability, and innovation. With a strong technical background and problem-solving skills, I create seamless digital experiences that enhance business operations.  
+                            <br><br>
+                            Beyond coding, I channel my creativity into music composition and production. Whether developing systems or crafting melodies, I thrive on blending technology and artistry to bring ideas to life.  
+                            <br><br>
+                            Let's connect and build something great together!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skills p-4 rounded-3 shadow-sm">
+                        <h3 class="mb-4 fw-bold">Technical Skills</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex align-items-center">
+                                <i class="fab fa-html5 me-3 text-primary"></i>
+                                HTML/CSS
+                            </li>
+                            <li class="list-group-item d-flex align-items-center">
+                                <i class="fab fa-js-square me-3 text-warning"></i>
+                                JavaScript
+                            </li>
+                            <li class="list-group-item d-flex align-items-center">
+                                <i class="fab fa-php me-3 text-info"></i>
+                                PHP
+                            </li>
+                            <li class="list-group-item d-flex align-items-center">
+                                <i class="fas fa-palette me-3 text-success"></i>
+                                Web Design
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">My Work</h2>
+            <div class="row g-4">
+                <!-- Music Project -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm music-card">
+                        <img src="../b008afbd334846db9ae110a65db2060a_320_320.jpg" 
+                             class="card-img-top"
+                             style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">"Can't Let You Go"</h5>
+                            <p class="card-text">Renz Delute, Haino</p>
+                            <iframe style="border-radius:12px" 
+                                    src="https://open.spotify.com/embed/track/2QZFBqv95WLJI83OajbC3Y?utm_source=generator" 
+                                    width="100%" 
+                                    height="152" 
+                                    frameborder="0" 
+                                    allowfullscreen="" 
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                                    loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="social-links d-flex justify-content-center gap-3 mb-5">
+                        <a href="https://www.facebook.com/renzdelutemusic" target="_blank" 
+                           class="btn btn-primary btn-lg rounded-circle">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/renz-delute-00a2a0324/" target="_blank" 
+                           class="btn btn-primary btn-lg rounded-circle">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; <span id="currentYear"></span> Renz Delute</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scripts -->
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                const offsetPosition = target.offsetTop - navbarHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Copyright year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
